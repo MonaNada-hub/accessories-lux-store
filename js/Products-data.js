@@ -1,0 +1,32 @@
+// Product catalog data — edit/add products here, no HTML editing needed.
+// featured:true adds the gold highlight style to the card.
+const PRODUCTS = [
+                        { id: 'taupe-structured-top-handle-bag', name: 'Taupe Structured Top-Handle Bag', price: 259.99, category: 'Bags', image: 'taupe-structured-top-handle-bag.png', featured: true },
+    { id: 'black-quilted-chain-shoulder-bag', name: 'Black Quilted Chain Shoulder Bag', price: 279.99, category: 'Bags', image: 'black-quilted-chain-shoulder-bag.png', featured: true },
+            { id: 'classic-round-solitaire-engagement-ring', name: 'Classic Round Solitaire Engagement Ring', price: 379.99, category: 'Engagement Rings', image: 'classic-round-solitaire-engagement-ring.png', featured: true },
+    { id: 'black-diamond-vintage-engagement-ring', name: 'Black Diamond Vintage Engagement Ring', price: 419.99, category: 'Engagement Rings', image: 'black-diamond-vintage-engagement-ring.png', featured: true },
+    { id: 'rose-gold-oval-halo-engagement-ring', name: 'Rose Gold Oval Halo Engagement Ring', price: 449.99, category: 'Engagement Rings', image: 'rose-gold-oval-halo-engagement-ring.png', featured: true },
+    { id: 'twist-band-diamond-engagement-ring', name: 'Twist Band Diamond Engagement Ring', price: 389.99, category: 'Engagement Rings', image: 'twist-band-diamond-engagement-ring.png', featured: true },
+    { id: 'heart-cut-diamond-engagement-ring', name: 'Heart-Cut Diamond Engagement Ring', price: 409.99, category: 'Engagement Rings', image: 'heart-cut-diamond-engagement-ring.png', featured: true },
+    { id: 'gold-clover-onyx-pendant-necklace', name: 'Gold Clover Onyx Pendant Necklace', price: 189.99, category: 'Necklaces', image: 'gold-clover-onyx-pendant-necklace.png', featured: true },
+    { id: 'gold-wave-diamond-pendant-necklace', name: 'Gold Wave Diamond Pendant Necklace', price: 209.99, category: 'Necklaces', image: 'gold-wave-diamond-pendant-necklace.png', featured: true },
+    { id: 'silver-diamond-leaf-pendant-necklace', name: 'Silver Diamond Leaf Pendant Necklace', price: 229.99, category: 'Necklaces', image: 'silver-diamond-leaf-pendant-necklace.png', featured: true },
+        { id: 'gold-teardrop-diamond-pendant-necklace', name: 'Gold Teardrop Diamond Pendant Necklace', price: 199.99, category: 'Necklaces', image: 'gold-teardrop-diamond-pendant-necklace.png', featured: true },
+    { id: 'black-onyx-station-pendant-necklace', name: 'Black Onyx Station Pendant Necklace', price: 219.99, category: 'Necklaces', image: 'black-onyx-station-pendant-necklace.png', featured: true },
+    { id: 'diamond-pave-hoop-earrings', name: 'Diamond Pavé Hoop Earrings', price: 129.99, category: 'Earrings', image: 'diamond-pave-hoop-earrings.png', featured: true },
+
+    { id: 'gold-cuff-bangle-bracelet', name: 'Gold Cuff Bangle Bracelet', price: 169.99, category: 'Bracelets', image: 'gold-cuff-bangle-bracelet.png', featured: true },
+    { id: 'layered-gold-bracelets', name: 'Layered Gold Bracelets Set', price: 189.99, category: 'Bracelets', image: 'layered-gold-bracelets.png', featured: true },
+    { id: 'gold-tennis-bracelet', name: 'Gold Tennis Bracelet', price: 229.99, category: 'Bracelets', image: 'gold-tennis-bracelet.png', featured: true },
+    { id: 'gold-bangle-bracelet', name: 'Classic Gold Bangle Bracelet', price: 149.99, category: 'Bracelets', image: 'gold-bangle-bracelet.png', featured: true },
+    { id: 'pearl-gold-bracelet', name: 'Pearl Gold Bracelet', price: 159.99, category: 'Bracelets', image: 'pearl-gold-bracelet.png', featured: true },
+    { id: 'charm-bracelet-gold', name: 'Gold Charm Bracelet', price: 174.99, category: 'Bracelets', image: 'charm-bracelet-gold.png', featured: true },
+    { id: 'herringbone-gold-bracelet', name: 'Herringbone Gold Bracelet', price: 179.99, category: 'Bracelets', image: 'herringbone-gold-bracelet.png', featured: true },
+    { id: 'beaded-gold-bracelet', name: 'Beaded Gold Bracelet', price: 129.99, category: 'Bracelets', image: 'beaded-gold-bracelet.png', featured: true },
+    { id: 'twist-gold-bangle', name: 'Twist Gold Bangle', price: 154.99, category: 'Bracelets', image: 'twist-gold-bangle.png', featured: true },
+    { id: 'gold-link-bracelet', name: 'Gold Link Bracelet', price: 164.99, category: 'Bracelets', image: 'gold-link-bracelet.png', featured: true },
+    { id: 'diamond-station-bracelet', name: 'Diamond Station Bracelet', price: 249.99, category: 'Bracelets', image: 'diamond-station-bracelet.png', featured: true },
+    { id: 'onyx-gold-bracelet', name: 'Onyx Gold Bracelet', price: 184.99, category: 'Bracelets', image: 'onyx-gold-bracelet.png', featured: true },
+    { id: 'rose-gold-bracelet', name: 'Rose Gold Bracelet', price: 169.99, category: 'Bracelets', image: 'rose-gold-bracelet.png', featured: true },
+    { id: 'vintage-gold-bracelet', name: 'Vintage Gold Bracelet', price: 194.99, category: 'Bracelets', image: 'vintage-gold-bracelet.png', featured: true },
+];
